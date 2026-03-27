@@ -18,8 +18,7 @@ export const Features = () => {
         {/* Subcopy */}
         <div className="max-w-xl mx-auto">
           <p className="text-center mt-5 text-base sm:text-lg lg:text-xl text-white/70">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, odit
-            in facilis mollitia dolorum rerum.
+            We deliver end-to-end technology solutions — from websites and mobile apps to Google Ads and custom software — everything your business needs to grow.
           </p>
         </div>
 
