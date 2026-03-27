@@ -17,7 +17,7 @@ export default function GlobalOverlay() {
   const [progress, setProgress] = useState(0);
   const ticking = useRef(false);
 
-  const phoneNumber = "+1 201-984-5730";
+  const phoneNumber = "+91 70223 86588";
   // const whatsappMessage = encodeURIComponent("Hello! I'm interested in Accelera Tech Solutions. Please share more details.");
   // const whatsappLink = `https://wa.me/12019845730?text=${whatsappMessage}`;
 

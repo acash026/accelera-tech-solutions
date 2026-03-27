@@ -174,7 +174,7 @@ export default function ContactUs() {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500 transition"
-                        placeholder="(201) 984-5730"
+                        placeholder="+91 70223 86588"
                       />
                     </div>
                   </div>
@@ -275,10 +275,10 @@ export default function ContactUs() {
                       <div>
                         <h4 className="font-medium">Phone</h4>
                         <a
-                          href="tel:+12019845730"
+                          href="tel:+91 70223 86588"
                           className="text-gray-400 hover:text-blue-400 transition"
                         >
-                          (201) 984-5730
+                          +91 70223 86588
                         </a>
                       </div>
                     </div>
@@ -300,9 +300,9 @@ export default function ContactUs() {
                       <div>
                         <h4 className="font-medium">Office</h4>
                         <p className="text-gray-400">
-                          971 US HIGHWAY 202N STE R
+                          VertexOne Workspace Gateway Building, MG Rd, Ballalbagh
                           <br />
-                          BRANCHBURG, NEW JERSEY 08876
+                          Mangaluru, Karnataka 575003
                         </p>
                       </div>
                     </div>
