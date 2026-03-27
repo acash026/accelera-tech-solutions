@@ -32,7 +32,7 @@ const projects: Project[] = [
     description:
       "A cutting-edge solution for managing elevator systems with real-time monitoring and analytics.",
     tech: ["React", "Express.js", "Firebase", "Socket.io"],
-    image: "https://ik.imagekit.io/charanraj/UI/",
+     image: "https://ik.imagekit.io/charanraj/UI/image.png?updatedAt=1725711628004",
     category: "Custom Software",
     liveUrl: "https://www.rhythmelevators.com/",
     status: "Live",
