@@ -27,16 +27,7 @@ const projects: Project[] = [
     liveUrl: "https://webhooksstudio.vercel.app/",
     status: "Live",
   },
-  {
-    title: "Rhythm Elevators",
-    description:
-      "A cutting-edge solution for managing elevator systems with real-time monitoring and analytics.",
-    tech: ["React", "Express.js", "Firebase", "Socket.io"],
-     image: "https://ik.imagekit.io/charanraj/UI/image.png?updatedAt=1725711628004",
-    category: "Custom Software",
-    liveUrl: "https://www.rhythmelevators.com/",
-    status: "Live",
-  },
+  
   {
     title: "Accelera Auto Parts",
     description:
