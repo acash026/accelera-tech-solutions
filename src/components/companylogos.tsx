@@ -22,14 +22,14 @@ export default function LogoCarousel() {
       <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
         {logos.map((logo, index) => (
           <li key={index}>
-            <Image src={logo.src} alt={logo.alt} height={60} style={{filter: "brightness(0) invert(1)"}} />
+            <Image src={logo.src} alt={logo.alt} height={80} style={{filter: "brightness(0) invert(1)"}} />
           </li>
         ))}
       </ul>
       <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
         {logos.map((logo, index) => (
           <li key={index}>
-            <Image src={logo.src} alt={logo.alt} height={60} style={{filter: "brightness(0) invert(1)"}} />
+            <Image src={logo.src} alt={logo.alt} height={80} style={{filter: "brightness(0) invert(1)"}} />
           </li>
         ))}
       </ul>
