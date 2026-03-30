@@ -1,29 +1,36 @@
 import Link from "next/link";
-import { Instagram, Linkedin, Youtube, Twitter } from "lucide-react";
+import { Instagram, Linkedin, Twitter } from "lucide-react";
+
+// Facebook icon component
+const FacebookIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
+    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987H7.898V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+  </svg>
+);
 
 export const Footer = () => {
   const year = new Date().getFullYear();
 
   const socials = [
     {
-      href: "https://x.com/AcceleraTech" /* replace */,
+      href: "https://x.com/AcceleraTechHQ",
       label: "Follow us on X (Twitter)",
       Icon: Twitter,
     },
     {
-      href: "https://www.linkedin.com/company/acceleratechsolutions/" /* replace */,
+      href: "https://www.linkedin.com/company/accelera-tech-solutions",
       label: "Connect with us on LinkedIn",
       Icon: Linkedin,
     },
     {
-      href: "https://instagram.com/acceleratechsolutions" /* replace */,
+      href: "https://www.instagram.com/accelera_tech_solutions",
       label: "Follow us on Instagram",
       Icon: Instagram,
     },
     {
-      href: "https://youtube.com/@acceleratechsolutions" /* replace */,
-      label: "Subscribe to our YouTube channel",
-      Icon: Youtube,
+      href: "https://www.facebook.com/profile.php?id=61574331861086",
+      label: "Follow us on Facebook",
+      Icon: FacebookIcon,
     },
   ];
 
@@ -39,7 +46,6 @@ export const Footer = () => {
     <footer className="border-t border-white/15 bg-black text-white/70">
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="py-8 sm:py-10 lg:py-12">
-          {/* Top strip: brand + socials */}
           <div className="flex flex-col gap-6 sm:gap-8 md:flex-row md:items-center md:justify-between">
             <div className="text-center md:text-left">
               <p className="text-base sm:text-lg font-medium">
@@ -76,10 +82,8 @@ export const Footer = () => {
             </div>
           </div>
 
-          {/* Divider */}
           <div className="my-6 border-t border-white/10" />
 
-          {/* Legal & Support */}
           <div className="flex flex-col items-center gap-4">
             <h3 className="text-xs sm:text-sm font-medium uppercase tracking-wider text-white/80">
               Legal & Support
